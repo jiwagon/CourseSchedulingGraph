@@ -53,21 +53,21 @@ public class CourseScheduler {
         return toAdd;
     }
 
-    public void addEdge(String fromClass, String toClass, int weight) {
+    public void addEdge(String fromCourse, String toCourse, int weight) {
         Vertex start;
         Vertex end;
         // check if start vertex exists or not
-        int startPos = this.getIndex(fromClass);
+        int startPos = this.getIndex(fromCourse);
         if (startPos < 0) {
-            start = this.addVertex(fromClass);
+            start = this.addVertex(fromCourse);
         }
         else {
             start = this.courses.get(startPos);
         }
         // check if end vertex exists or not
-        int endPos = this.getIndex(toClass);
+        int endPos = this.getIndex(toCourse);
         if (endPos < 0) {
-            end = this.addVertex(toClass);
+            end = this.addVertex(toCourse);
         }
         else {
             end = this.courses.get(endPos);
