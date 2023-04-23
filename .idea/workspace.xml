@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ff9807e-8ac6-4b41-91f4-269dfca22e05" name="Changes" comment="Initial commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CourseScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CourseScheduler.java" afterDir="false" />
+    <list default="true" id="9ff9807e-8ac6-4b41-91f4-269dfca22e05" name="Changes" comment="Create tests">
+      <change beforePath="$PROJECT_DIR$/src/CourseSchedulerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CourseSchedulerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +16,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -34,9 +34,16 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -52,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682216288783</updated>
-      <workItem from="1682216290258" duration="1086000" />
+      <workItem from="1682216290258" duration="1420000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1682216467939</created>
@@ -61,7 +68,28 @@
       <option name="project" value="LOCAL" />
       <updated>1682216467939</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="created methods">
+      <created>1682217504318</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682217504318</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Edited addEdge method">
+      <created>1682217703277</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1682217703277</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Create tests">
+      <created>1682217709267</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1682217709267</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -69,6 +97,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="created methods" />
+    <MESSAGE value="Edited addEdge method" />
+    <MESSAGE value="Create tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create tests" />
   </component>
 </project>

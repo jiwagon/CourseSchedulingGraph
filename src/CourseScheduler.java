@@ -40,7 +40,7 @@ public class CourseScheduler {
     }
 
     // Add a vertex to a graph
-    public Vertex addVertex(String vertex) {
+    public Vertex addCourse(String vertex) {
         Vertex toAdd = new Vertex(vertex);
         // or if (!vertices.contains(vertex))
         // vertex.compareTo(String.valueOf(vertices)) == 0
@@ -53,13 +53,13 @@ public class CourseScheduler {
         return toAdd;
     }
 
-    public void addEdge(String fromCourse, String toCourse, int weight) {
+    public void addPrerequisite(String fromCourse, String toCourse, int weight) {
         Vertex start;
         Vertex end;
         // check if start vertex exists or not
         int startPos = this.getIndex(fromCourse);
         if (startPos < 0) {
-            start = this.addVertex(fromCourse);
+            start = this.addCourse(fromCourse);
         }
         else {
             start = this.courses.get(startPos);
@@ -67,7 +67,7 @@ public class CourseScheduler {
         // check if end vertex exists or not
         int endPos = this.getIndex(toCourse);
         if (endPos < 0) {
-            end = this.addVertex(toCourse);
+            end = this.addCourse(toCourse);
         }
         else {
             end = this.courses.get(endPos);

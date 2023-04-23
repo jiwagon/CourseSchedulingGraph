@@ -5,10 +5,11 @@ import static org.junit.jupiter.api.Assertions.*;
 class CourseSchedulerTest {
 
     @org.junit.jupiter.api.Test
-    void addVertex() {
+    void addCourse() {
+
     }
 
     @org.junit.jupiter.api.Test
-    void addEdge() {
+    void addPrerequisite() {
     }
 }
