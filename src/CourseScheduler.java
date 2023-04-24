@@ -93,4 +93,16 @@ public class CourseScheduler {
         // add vertex to startVertex arraylist of edges if edge with endVertex is not existing
         // add vertex to endVertex arraylist of edges if edge with startVertex is not existing
     }
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        for (Vertex vertex : courses) {
+            sb.append(vertex.courseName).append(": ");
+            for (Edge edge : vertex.edges) {
+                sb.append(edge.preRequisite.courseName).append(" (").append(edge.weight).append(")  ");
+            }
+            sb.append("\n");
+        }
+        return sb.toString();
+    }
 }
